@@ -80,5 +80,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   // Register the default tasks.
-  grunt.registerTask('default', ['concat', 'cssmin', 'imagemin', 'uglify', 'smoosher']);
+  grunt.registerTask('default', ['concat', 'cssmin', 'imagemin', 'uglify', 'smoosher', 'clean']);
 };
